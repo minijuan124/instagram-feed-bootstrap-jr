@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <script src="https://kit.fontawesome.com/773aa9c01c.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <textarea name="areaInstagram" cols="57" rows="2"></textarea>
+              <i class="bi bi-camera-fill"></i>
+              <i class="bi bi-geo-fill"></i>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" width="50" height="50" class="d-inline-block align-top" alt="">
+        <strong> Instagram </strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+                </form>
+            </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-gear" style="font-size:24px"></i>
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    </nav>
+
+    <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+            <nav aria-label="Page navigation ">
+              <ul class="pagination justify-content-center">
+                  <li class="page-item"><a class="page-link " href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+                  </svg></a></li>
+                  <li class="page-item "><a class="page-link " href="posts.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-square-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+                  </svg></a></li>
+              </ul>
+          </nav>
+        </div>
+    </div>
+</div>
+            
+            <div class="container-flex">
+
+                    <div class="main-container">
+                        
+                        <div class="box">
+                        <div class="post">
+                            <div class=" title">
+                                <h3>Firts Photo</h3>
+                                <p>12/14</p>
+                            </div>
+                            <div class="photo">
+                                 <img src="https://data.whicdn.com/images/25175832/original.jpg">
+                                 </div>
+                            <div class="description">
+                                <p><i class="far fa-heart"></i>  <i class="far fa-comment"> </i></p>
+                                <p><strong>50 likes</strong></p>
+                                <p> This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong> </p> 
+                                <div class="icon1"> 
+                                     <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <div class="title">
+                                <h3>Forests are my thing</h3>
+                                <p>12/17</p>
+                            </div>
+                            <div class="photo">
+                                 <img src="https://travelurway.ru/wp-content/uploads/2020/01/kanarskie-ostrova-les-1024x662.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>95 likes</strong></p>
+                                <p> The internet approves this forest:)... <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>Views</h3>
+                                <p>12/20</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>76 likes</strong></p>
+                                <p> So pretty <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="post">
+                            <div class="title">
+                                <h3>Magic Place!</h3>
+                                <p>12/24</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://www.planetware.com/wpimages/2019/09/ireland-in-pictures-most-beautiful-places-to-visit-cliffs-of-moher.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>85 likes</strong></p>
+                                <p> Woooooooooooooooooooooooooow <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>Pretty colors</h3>
+                                <p>12/26</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://cdn.wallpapersafari.com/34/6/dcADMw.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>100 likes</strong></p>
+                                <p> I like this <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>Meme culture</h3>
+                                <p>02/19</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://cdnv.vipestudio.com/uploads/2020/06/unnamed-file.wp.gif">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>1000000 likes</strong></p>
+                                <p> I can still hear this song <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>Doggo</h3>
+                                <p>10/19</p>
+                            </div>
+                            <div class="photo">
+                                <img src="http://personal.psu.edu/users/s/z/szn5162/dogs.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>1000 likes</strong></p>
+                                <p> The internet approves this cute dog... <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>More pretty places</h3>
+                                <p>12/25</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://pbs.twimg.com/media/E2mLi-cWUAc9RrV.jpg:medium">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>95 likes</strong></p>
+                                <p> :0 <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post">
+                            <div class="title">
+                                <h3>Plants</h3>
+                                <p>12/28</p>
+                            </div>
+                            <div class="photo">
+                                <img src="https://www.gardeners.com/globalassets/pred_20/homepage/20a04a_home_advice01d_growlightbuyingguide.jpg">
+                            </div>
+                            <div class="description">
+                                <p> <i class="far fa-heart"></i>  <i class="far fa-comment"></i></p>
+                                <p> <strong>555 Likes</strong></p>
+                                <p> I don't even have plants <strong>#BreatheCode</strong></p>
+                                <div class="icon1"> 
+                                    <input type="text"  placeholder="Comment..."></i>
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                       </div>
+                    </div>
+                
+                </div>
+            </div>
+</body>
+</html>
